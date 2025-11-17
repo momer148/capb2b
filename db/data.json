@@ -1,0 +1,52 @@
+{
+  "capb2b.Categories": [
+    {"ID": 1, "name": "Electronics", "description": "Electronic devices and accessories"},
+    {"ID": 2, "name": "Clothing", "description": "Apparel and fashion items"},
+    {"ID": 3, "name": "Books", "description": "Books and publications"},
+    {"ID": 4, "name": "Home & Garden", "description": "Home improvement and garden supplies"},
+    {"ID": 5, "name": "Sports", "description": "Sports equipment and accessories"}
+  ],
+  "capb2b.Suppliers": [
+    {"ID": 1, "name": "TechSupply Co", "email": "contact@techsupply.com", "phone": "555-0101", "address": "123 Tech Street"},
+    {"ID": 2, "name": "Fashion Hub", "email": "info@fashionhub.com", "phone": "555-0102", "address": "456 Fashion Ave"},
+    {"ID": 3, "name": "BookWorld", "email": "sales@bookworld.com", "phone": "555-0103", "address": "789 Book Lane"},
+    {"ID": 4, "name": "HomeGoods Inc", "email": "orders@homegoods.com", "phone": "555-0104", "address": "321 Home Blvd"},
+    {"ID": 5, "name": "SportsPro", "email": "support@sportspro.com", "phone": "555-0105", "address": "654 Sports Dr"}
+  ],
+  "capb2b.Products": [
+    {"ID": 1, "name": "Laptop", "description": "High-performance laptop", "price": 999.99, "categoryID": 1, "supplierID": 1, "stock": 50},
+    {"ID": 2, "name": "Smartphone", "description": "Latest smartphone model", "price": 699.99, "categoryID": 1, "supplierID": 1, "stock": 100},
+    {"ID": 3, "name": "T-Shirt", "description": "Cotton t-shirt", "price": 19.99, "categoryID": 2, "supplierID": 2, "stock": 200},
+    {"ID": 4, "name": "Jeans", "description": "Denim jeans", "price": 49.99, "categoryID": 2, "supplierID": 2, "stock": 150},
+    {"ID": 5, "name": "Novel", "description": "Bestselling novel", "price": 14.99, "categoryID": 3, "supplierID": 3, "stock": 75},
+    {"ID": 6, "name": "Textbook", "description": "Educational textbook", "price": 89.99, "categoryID": 3, "supplierID": 3, "stock": 30},
+    {"ID": 7, "name": "Garden Hose", "description": "50ft garden hose", "price": 29.99, "categoryID": 4, "supplierID": 4, "stock": 80},
+    {"ID": 8, "name": "Lawn Mower", "description": "Electric lawn mower", "price": 299.99, "categoryID": 4, "supplierID": 4, "stock": 25},
+    {"ID": 9, "name": "Tennis Racket", "description": "Professional tennis racket", "price": 129.99, "categoryID": 5, "supplierID": 5, "stock": 40},
+    {"ID": 10, "name": "Basketball", "description": "Official size basketball", "price": 24.99, "categoryID": 5, "supplierID": 5, "stock": 60}
+  ],
+  "capb2b.Customers": [
+    {"ID": 1, "name": "John Doe", "email": "john@example.com", "phone": "555-1001", "address": "100 Main St", "creditLimit": 5000.00},
+    {"ID": 2, "name": "Jane Smith", "email": "jane@example.com", "phone": "555-1002", "address": "200 Oak Ave", "creditLimit": 10000.00},
+    {"ID": 3, "name": "Bob Johnson", "email": "bob@example.com", "phone": "555-1003", "address": "300 Pine Rd", "creditLimit": 7500.00}
+  ],
+  "capb2b.Orders": [
+    {"ID": 1, "customerID": 1, "orderDate": "2025-01-15T10:00:00Z", "totalAmount": 1049.98, "status": "Pending"},
+    {"ID": 2, "customerID": 1, "orderDate": "2025-02-20T14:30:00Z", "totalAmount": 69.98, "status": "Pending"},
+    {"ID": 3, "customerID": 2, "orderDate": "2025-01-25T09:15:00Z", "totalAmount": 329.97, "status": "Pending"},
+    {"ID": 4, "customerID": 2, "orderDate": "2025-02-28T16:45:00Z", "totalAmount": 699.99, "status": "Pending"},
+    {"ID": 5, "customerID": 3, "orderDate": "2025-02-10T11:20:00Z", "totalAmount": 154.98, "status": "Pending"}
+  ],
+  "capb2b.OrderItems": [
+    {"ID": 1, "orderID": 1, "productID": 1, "quantity": 1, "price": 999.99},
+    {"ID": 2, "orderID": 1, "productID": 5, "quantity": 2, "price": 14.99},
+    {"ID": 3, "orderID": 1, "productID": 10, "quantity": 1, "price": 24.99},
+    {"ID": 4, "orderID": 2, "productID": 3, "quantity": 2, "price": 19.99},
+    {"ID": 5, "orderID": 2, "productID": 7, "quantity": 1, "price": 29.99},
+    {"ID": 6, "orderID": 3, "productID": 8, "quantity": 1, "price": 299.99},
+    {"ID": 7, "orderID": 3, "productID": 7, "quantity": 1, "price": 29.99},
+    {"ID": 8, "orderID": 4, "productID": 2, "quantity": 1, "price": 699.99},
+    {"ID": 9, "orderID": 5, "productID": 9, "quantity": 1, "price": 129.99},
+    {"ID": 10, "orderID": 5, "productID": 10, "quantity": 1, "price": 24.99}
+  ]
+}
